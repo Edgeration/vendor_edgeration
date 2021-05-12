@@ -4,22 +4,23 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 endif
 
-# LineageOS System Version
+# Edgeration System Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.version=$(LINEAGE_VERSION) \
-    ro.lineage.releasetype=$(LINEAGE_BUILDTYPE) \
-    ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(LINEAGE_VERSION) \
-    ro.lineagelegal.url=https://lineageos.org/legal
+    ro.edgeration.version=$(EDGERATION_VERSION) \
+    ro.edgeration.fingerprint=$(ROM_FINGERPRINT) \
+    ro.edgeration.releasetype=$(EDGERATION_BUILDTYPE) \
+    ro.edgeration.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
+    ro.modversion=$(EDGERATION_VERSION) \
+    ro.edgerationlegal.url=https://lineageos.org/legal
 
-# LineageOS Platform Display Version
+# Edgeration Platform Display Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION)
+    ro.edgeration.display.version=$(EDGERATION_DISPLAY_VERSION)
 
-# LineageOS Platform SDK Version
+# Edgeration Platform SDK Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.build.version.plat.sdk=$(LINEAGE_PLATFORM_SDK_VERSION)
+    ro.edgeration.build.version.plat.sdk=$(EDGERATION_PLATFORM_SDK_VERSION)
 
-# LineageOS Platform Internal Version
+# Edgeration Platform Internal Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+    ro.edgeration.build.version.plat.rev=$(EDGERATION_PLATFORM_REV)
