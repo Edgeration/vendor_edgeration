@@ -187,6 +187,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/edgeration/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/edgeration/overlay/common
 
+-include vendor/edgeration/config/ota.mk
 -include vendor/edgeration/config/edgeration_version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk

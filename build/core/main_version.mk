@@ -24,3 +24,10 @@ ADDITIONAL_BUILD_PROPERTIES += \
 # Edgeration Platform Internal Version
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.edgeration.build.version.plat.rev=$(EDGERATION_PLATFORM_REV)
+
+# EdgeRation OTA Packages
+OTA_PACKAGES ?= false
+
+ADDITIONAL_BUILD_PROPERTIES += \
+    org.edgeration.ota.build=$(OTA_PACKAGES) \
+    org.edgeration.device=$(TARGET_DEVICE)

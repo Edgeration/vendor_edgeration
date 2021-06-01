@@ -1,0 +1,8 @@
+ifeq ($(EDGERATION_BUILD_TYPE), OFFICIAL)
+
+PRODUCT_PACKAGES += \
+    Updates
+
+OTA_PACKAGES := true
+
+endif
