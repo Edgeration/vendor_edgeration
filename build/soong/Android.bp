@@ -1,4 +1,4 @@
-// edgerationOS soong configs
+// Edgeration soong configs
 
 bootstrap_go_package {
     name: "soong-edgeration-generator",
