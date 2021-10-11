@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # -----------------------------------------------------------------
-# Lineage OTA update package
+# EdgeRation OTA update package
 
 EDGERATION_TARGET_PACKAGE := $(PRODUCT_OUT)/Edgeration-$(EDGERATION_VERSION).zip
 

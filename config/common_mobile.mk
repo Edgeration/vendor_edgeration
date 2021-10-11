@@ -1,4 +1,4 @@
-# Inherit common mobile Lineage stuff
+# Inherit common mobile Edgeration stuff
 $(call inherit-product, vendor/edgeration/config/common.mk)
 
 # Default notification/alarm sounds
@@ -11,14 +11,6 @@ PRODUCT_PACKAGES += \
     Email \
     ExactCalculator \
     Exchange2
-
-# Lineage packages
-PRODUCT_PACKAGES += \
-    Backgrounds \
-    Etar \
-    Jelly \
-    Profiles \
-    Seedvault
 
 ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
 PRODUCT_PACKAGES += \
@@ -39,20 +31,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     TrebuchetQuickStep
 endif
 
-# Accents
-PRODUCT_PACKAGES += \
-    LineageBlackTheme \
-    LineageBlackAccent \
-    LineageBlueAccent \
-    LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
-    LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
@@ -65,7 +43,6 @@ endif
 # Customizations
 PRODUCT_PACKAGES += \
     IconShapeSquareOverlay \
-    LineageNavigationBarNoHint \
     NavigationBarMode2ButtonOverlay
 
 # Media

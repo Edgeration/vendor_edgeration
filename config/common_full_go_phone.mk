@@ -1,5 +1,5 @@
-# Set Lineage specific identifier for Android Go enabled products
+# Set Edgeration specific identifier for Android Go enabled products
 PRODUCT_TYPE := go
 
-# Inherit full common Lineage stuff
+# Inherit full common Edgeration stuff
 $(call inherit-product, vendor/edgeration/config/common_full_phone.mk)

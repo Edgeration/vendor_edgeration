@@ -10,8 +10,8 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.edgeration.fingerprint=$(ROM_FINGERPRINT) \
     ro.edgeration.releasetype=$(EDGERATION_BUILDTYPE) \
     ro.edgeration.build.version=$(EDGERATION_NUM_VER) \
+    ro.edgeration.shortver=$(EDGERATION_BUILD_VERSION) \
     ro.modversion=$(EDGERATION_VERSION) \
-    ro.edgerationlegal.url=https://lineageos.org/legal
 
 # Edgeration Platform Display Version
 ADDITIONAL_BUILD_PROPERTIES += \

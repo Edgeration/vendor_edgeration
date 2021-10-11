@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-EDGERATION_NUM_VER := 0.1
+EDGERATION_NUM_VER := 0.2
 EDGERATION_CODENAME := Alpha
 BUILD_DATE := $(shell date -u +%Y%m%d)
 BUILD_TIME := $(shell date -u +%H%M)
@@ -39,6 +39,3 @@ EDGERATION_VERSION := $(EDGERATION_BUILD_VERSION)-$(EDGERATION_BUILD_TYPE)-$(BUI
 ROM_FINGERPRINT := Edgeration/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(BUILD_TIME)
 EDGERATION_DISPLAY_VERSION := $(EDGERATION_VERSION)
 RELEASE_TYPE := $(EDGERATION_BUILD_TYPE)
-
-PRODUCT_PROPERTY_OVERRIDES += \
-  ro.edgeration.shortver=$(EDGERATION_BUILD_VERSION)
