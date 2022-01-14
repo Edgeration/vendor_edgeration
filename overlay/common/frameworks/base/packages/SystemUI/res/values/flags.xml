@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2020 The Proton AOSP Project
+    Copyright (C) 2021 The Proton AOSP Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -15,12 +15,6 @@
     limitations under the License.
 -->
 <resources>
-    <string-array name="configs_base">
-        <!--
-            System
-        -->
-
-        <!-- Use new privacy indicators for location -->
-        <item>privacy/location_indicators_enabled=true</item>
-    </string-array>
+    <bool name="flag_conversations">true</bool>
+    <bool name="flag_charging_ripple">true</bool>
 </resources>

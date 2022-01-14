@@ -6,16 +6,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.notification_sound=Argon.ogg \
     ro.config.alarm_alert=Hassium.ogg
 
-# AOSP packages
-PRODUCT_PACKAGES += \
-    Email \
-    ExactCalculator \
-    Exchange2
-
-# Lineage packages
+# Apps
 PRODUCT_PACKAGES += \
     Backgrounds \
     Etar \
+    ExactCalculator \
     Jelly \
     Profiles \
     Seedvault
@@ -39,20 +34,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     TrebuchetQuickStep
 endif
 
-# Accents
-PRODUCT_PACKAGES += \
-    LineageBlackTheme \
-    LineageBlackAccent \
-    LineageBlueAccent \
-    LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
-    LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
@@ -64,7 +45,6 @@ endif
 
 # Customizations
 PRODUCT_PACKAGES += \
-    IconShapeSquareOverlay \
     LineageNavigationBarNoHint \
     NavigationBarMode2ButtonOverlay
 

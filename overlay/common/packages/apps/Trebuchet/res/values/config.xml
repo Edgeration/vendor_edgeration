@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2020 The Proton AOSP Project
+    Copyright (C) 2021 The LineageOS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -15,12 +15,8 @@
     limitations under the License.
 -->
 <resources>
-    <string-array name="configs_base">
-        <!--
-            System
-        -->
 
-        <!-- Use new privacy indicators for location -->
-        <item>privacy/location_indicators_enabled=true</item>
-    </string-array>
+    <!-- Default packages -->
+    <string name="wallpaper_picker_package" translatable="false">com.android.wallpaper</string>
+
 </resources>

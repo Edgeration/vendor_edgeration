@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-EDGERATION_NUM_VER := 0.1
+EDGERATION_NUM_VER := 0.2
 EDGERATION_CODENAME := Alpha
 BUILD_DATE := $(shell date -u +%Y%m%d)
 BUILD_TIME := $(shell date -u +%H%M)
